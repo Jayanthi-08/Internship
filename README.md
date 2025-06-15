@@ -21,6 +21,9 @@
 > Black Quote <br>
 (Used to highlight the content)
 
+` Single Line of Code within back tick `
+` Multiple Lines of code with three back ticks `
+
 ```
 #include java.import.*
 public class Main {
@@ -29,3 +32,5 @@ public class Main {
     }
 }
 ```
+
+To get Horizontal line between two content parts use hiphens or minus symbols 
