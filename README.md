@@ -58,7 +58,7 @@ Insert any image
 
 To Use CheckList
 
-- [] DevOps
-- [] AI
-- [] ML
-- [] Cloud
+- [x] DevOps
+- [ ] AI
+- [ ] ML
+- [ ] Cloud
