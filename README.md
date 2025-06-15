@@ -44,3 +44,7 @@ To insert any url we use ()-open brackets-paste the url here []-closed brackets-
 
 
 [Let's Connect](https://www.linkedin.com/in/jayanthi-gopaldas/)
+
+or
+
+[This is a text file](Text1.txt)
