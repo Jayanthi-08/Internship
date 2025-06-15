@@ -68,7 +68,7 @@ To Use CheckList
 FootNote [^1]
 [^1]:Meaning of the current page or like the summary at the end
 
-To Insert a Table
+To Insert a Table use pipeline symbol(for columns) and hyphen synmbol(To get horizontal lines) 
 |Name|College|
 |----|-----|
 |Jayanthi|GPCET|
