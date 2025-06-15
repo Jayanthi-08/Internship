@@ -48,3 +48,10 @@ To insert any url we use ()-open brackets-paste the url here []-closed brackets-
 or
 
 [This is a text file](Text1.txt)
+
+or
+
+<br>
+Insert any image
+
+![Love for Good Weather](https://unsplash.com/photos/a-tree-with-purple-flowers-in-front-of-a-building-XEd_omO70_Y)
