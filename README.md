@@ -5,6 +5,7 @@
 *Italic* <br>
 **Bold** <br>
 ***Bold-Italic*** <br>
+~~Strink Through~~
   *###### Astrics are used for style of letters* <br>
 
 ### Ordered List  
@@ -62,3 +63,7 @@ To Use CheckList
 - [ ] AI
 - [ ] ML
 - [ ] Cloud
+
+
+FootNote [^1]
+[^1]:Meaning of the current page or like the summary at the end
