@@ -67,3 +67,8 @@ To Use CheckList
 
 FootNote [^1]
 [^1]:Meaning of the current page or like the summary at the end
+
+To Insert a Table
+|Name|College|
+|----|-----|
+|Jayanthi|GPCET|
