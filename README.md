@@ -35,6 +35,10 @@ public class Main {
 
 To get Horizontal line between two content parts use hiphens or minus symbols 
 
-Hello
+
+####### Hello
 -----------
 Good Morning
+<br>
+To insert any url we use ()-open brackets-tag name  []-closed brackets-paste the url here, this will generate a hyper link.
+(Let's Connect)[https://www.linkedin.com/in/jayanthi-gopaldas/]
