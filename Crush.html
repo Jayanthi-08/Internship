@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>💬 Crush Comparator</title>
+  <style>
+    body { font-family: 'Segoe UI'; text-align: center; padding: 50px; background: #fff0f5; }
+    input { padding: 10px; width: 250px; border-radius: 8px; border: 1px solid gray; }
+    button { padding: 10px 20px; margin: 10px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+    #response, #pickup { margin-top: 20px; font-size: 18px; font-weight: bold; }
+    #response { color: #d81b60; }
+    #pickup { color: #4a148c; }
+  </style>
+</head>
+<body>
+
+  <h1>💘 Crush Comparator 💬</h1>
+  <p>Enter their reply below:</p>
+
+  <input type="text" id="replyInput" placeholder="e.g. k, Good morning!..." />
+  <br>
+  <button onclick="analyzeReply()">Decode ❤️</button>
+  <button onclick="block()">Block 🚫</button>
+  <button onclick="sendConfession()">Send Confession 💌</button>
+
+  <p id="response">...awaiting drama</p>
+  <p id="pickup"></p>
+
+  <script>
+    function analyzeReply() {
+      const reply = document.getElementById("replyInput").value.trim().toLowerCase();
+      let response = "";
+
+      if (reply === "") response = "She’s ignoring you, bro 💔";
+      else if (reply === "k") response = "Red flag detected 🚩";
+      else if (reply === "good morning!") response = "You got a chance 😳";
+      else if (reply.includes("busy")) response = "Classic excuse 🧢";
+      else if (reply.endsWith("...")) response = "Drama incoming 😩";
+      else if (reply.includes("sure")) response = "She’s being polite. You're in the friendzone 🧊";
+      else if (reply.includes("maybe")) response = "The 'no' in disguise 😬";
+      else response = "Mixed signals. Proceed with caution ⚠️";
+
+      document.getElementById("response").innerText = response;
+      document.getElementById("pickup").innerText = ""; // Clear pickup if analyzing again
+    }
+
+    function block() {
+      document.getElementById("response").innerText = "Blocked. Peace restored 🧘";
+      document.getElementById("pickup").innerText = "";
+    }
+
+    function sendConfession() {
+      const pickupLines = [
+        "Are you made of copper and tellurium? Because you're Cu-Te 😉",
+        "If you were a vegetable, you'd be a cute-cumber 🥒",
+        "Do you have a name, or can I call you mine? 😌",
+        "I must be a snowflake, because I’ve fallen for you ❄️",
+        "Are you Wi-Fi? Because I'm feeling a strong connection 📶",
+        "You're the reason my heart skips compilation 🔄❤️",
+        "Are you Java? Because you've got class ☕",
+        "You're like semicolon in my life — essential and missed when gone."
+      ];
+
+      const randomIndex = Math.floor(Math.random() * pickupLines.length);
+      const pickup = pickupLines[randomIndex];
+
+      document.getElementById("pickup").innerText = "💌 " + pickup;
+    }
+  </script>
+
+</body>
+</html>
